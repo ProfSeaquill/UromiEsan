@@ -21,8 +21,8 @@ fetch("data/vocabulary.json")
 function showCard() {
   isFlipped = false;
   const card = vocabulary[currentIndex];
-  frontEl.textContent = card.esan;
-  backEl.textContent = card.english;
+  frontEl.textContent = card.word;
+  backEl.textContent = card.translation;
   backEl.classList.add("hidden");
   
 }
