@@ -28,18 +28,17 @@ function showCard() {
 }
 
 function flipCard() {
-  console.log('Flip clicked. Current isFlipped:', isFlipped);
   if (!vocabulary.length) return;
   isFlipped = !isFlipped;
-  console.log('New isFlipped:', isFlipped);
 
   if (isFlipped) {
-    backEl.classList.remove("hidden");
+    frontEl.style.display = "none";
+    backEl.style.display = "block";
   } else {
-    backEl.classList.add("hidden");
+    frontEl.style.display = "block";
+    backEl.style.display = "none";
   }
 }
-
 
 function nextCard() {
   if (!vocabulary.length) return;
