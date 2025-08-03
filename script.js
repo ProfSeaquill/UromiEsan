@@ -23,9 +23,11 @@ function showCard() {
   const card = vocabulary[currentIndex];
   frontEl.textContent = card.esan;
   backEl.textContent = card.english;
-  backEl.classList.add("hidden");
-  
+
+  frontEl.style.display = "block";
+  backEl.style.display = "none";
 }
+
 
 function flipCard() {
   if (!vocabulary.length) return;
