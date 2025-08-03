@@ -5,7 +5,6 @@ let isFlipped = false;
 // grab elements
 const frontEl = document.getElementById("front");
 const backEl = document.getElementById("back");
-const audioEl = document.getElementById("audio");
 
 // fetch the vocab from JSON
 fetch("data/vocabulary.json")
@@ -26,12 +25,6 @@ function showCard() {
   backEl.textContent = card.english;
   backEl.classList.add("hidden");
   
-  if (card.audio) {
-    audioEl.src = card.audio;
-    audioEl.style.display = "block";
-  } else {
-    audioEl.style.display = "none";
-  }
 }
 
 function flipCard() {
