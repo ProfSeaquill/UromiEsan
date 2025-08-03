@@ -41,7 +41,6 @@ body {
 }
 
 #back {
-  transform: rotateY(180deg);
   color: #555;
 }
 
