@@ -42,6 +42,24 @@ function flipCard() {
   }
 }
 
+function previousCard() {
+  if (!vocabulary.length) return;
+
+  const cardEl = document.getElementById("flashcard");
+  cardEl.classList.add("fade-out");
+
+  setTimeout(() => {
+    currentIndex = (currentIndex - 1 + vocabulary.length) % vocabulary.length;
+    showCard();
+    cardEl.classList.remove("fade-out");
+    cardEl.classList.add("fade-in");
+
+    setTimeout(() => {
+      cardEl.classList.remove("fade-in");
+    }, 300);
+  }, 300);
+}
+
 function nextCard() {
   if (!vocabulary.length) return;
 
