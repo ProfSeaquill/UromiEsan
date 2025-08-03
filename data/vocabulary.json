@@ -1,0 +1,23 @@
+[
+  { "esan": "Uwa", "english": "House" },
+  { "esan": "Aza", "english": "Bank" },
+  { "esan": "Eki", "english": "Market" },
+  { "esan": "Odedo", "english": "Kitchen" },
+  { "esan": "Ekeuwa", "english": "Room" },
+  { "esan": "Uwaebe", "english": "School / Library" },
+
+  { "esan": "Aga", "english": "Chair" },
+  { "esan": "Ekpetinadudu", "english": "Television" },
+  { "esan": "Ebe", "english": "Book" },
+  { "esan": "Aba", "english": "Father" },
+  { "esan": "Ine", "english": "Mother" },
+
+  { "esan": "Inode", "english": "Yesterday" },
+
+  { "esan": "Iwena", "english": "Work" },
+  { "esan": "Awa", "english": "Dog" },
+  { "esan": "Igho", "english": "Money" },
+  { "esan": "Amen", "english": "Water" },
+  { "esan": "Orukpa", "english": "Light" },
+  { "esan": "Elo", "english": "Eyes" }
+]
